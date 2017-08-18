@@ -15,5 +15,6 @@ function removeFromPlaylist(playlist, artistName){
 }
 
 updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi");
+updatePlaylist(playlist, "Kanye", "Gold Digger");
 
-removeFromPlaylist(playlist, "Phil Ochs");
+removeFromPlaylist(playlist, "Kanye");
