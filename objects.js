@@ -17,3 +17,7 @@ function removeFromPlaylist(playlist, artist){
   delete playlist.artist;
   return playlist;
 }
+
+updatePlaylist(playlist, U2, "Vertigo");
+
+removeFromPlaylist(playlist, U2);
