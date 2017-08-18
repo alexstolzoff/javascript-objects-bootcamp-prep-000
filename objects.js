@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = {Kanye: "Gold Digger"};
 
 
 
@@ -16,4 +16,4 @@ function removeFromPlaylist(playlist, artistName){
 
 updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi");
 
-removeFromPlaylist(playlist, U2);
+removeFromPlaylist(playlist, Kanye);
