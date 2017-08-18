@@ -1,4 +1,4 @@
-var playlist = {Kanye: "Gold Digger"};
+var playlist = {};
 
 
 
