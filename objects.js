@@ -16,6 +16,6 @@ function removeFromPlaylist(playlist, artistName){
   return playlist;
 }
 
-updatePlaylist(obj, "Phil Ochs", "Here's to the State of Mississippi");
+updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi");
 
-removeFromPlaylist(obj, U2);
+removeFromPlaylist(playlist, U2);
