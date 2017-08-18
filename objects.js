@@ -1,7 +1,12 @@
+var playlist = {
+  Blink182: "First Date",
+  AFI: "Anxious",
+  The1975: "Somebody else"
+};
 
+var obj = new Object();
 
-var playlist = new Object();
-
+obj[playlist];
 
 function updatePlaylist(playlist, artistName, songTitle){
   playlist[artistName]= songTitle;
@@ -13,6 +18,6 @@ function removeFromPlaylist(playlist, artistName){
   return playlist;
 }
 
-updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi");
+updatePlaylist(obj, "Phil Ochs", "Here's to the State of Mississippi");
 
-removeFromPlaylist(playlist, U2);
+removeFromPlaylist(obj, U2);
