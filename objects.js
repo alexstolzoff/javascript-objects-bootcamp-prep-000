@@ -18,6 +18,6 @@ function removeFromPlaylist(playlist, artist){
   return playlist;
 }
 
-updatePlaylist(playlist, U2, "Vertigo");
+updatePlaylist(playlist, U2, Vertigo);
 
 removeFromPlaylist(playlist, U2);
