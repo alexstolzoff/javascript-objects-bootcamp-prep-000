@@ -1,10 +1,6 @@
-var playlist = {
-  Blink182: "First Date",
-  AFI: "Anxious",
-  The1975: "Somebody else"
-};
 
-var obj = new Object();
+
+var playlist = new Object();
 
 obj[playlist];
 
